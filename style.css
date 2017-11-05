@@ -1,0 +1,47 @@
+input[type=text] {
+  font-size: 2em;
+  font-style: normal;
+  text-align: right;
+  border-radius: 20px;
+  width: 260px;
+  height: 30px;
+  margin-bottom: 5px;
+  padding: 2%;
+  background: white;
+}
+
+button {
+  font-size: 1em;
+  color: white;
+  font-style: oblique;
+  border-radius: 20px;
+  width: 60px;
+  background: black;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-item {
+  text-align: center;
+  padding: .5em;
+  font-size: 1em;
+  flex-grow: 1;
+  margin: 0 5px 5px 0;
+}
+
+#Calculator {
+  width: 270px;
+  font-size: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana;
+  background: grey;
+  position: relative;
+}
